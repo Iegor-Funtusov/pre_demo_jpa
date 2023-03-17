@@ -6,6 +6,7 @@ import org.junit.jupiter.api.function.Executable;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import ua.com.alevel.entity.Profile;
 import ua.com.alevel.entity.User;
@@ -22,6 +23,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @RunWith(SpringRunner.class)
+//@SpringBootTest
 public class UserServiceMockTest {
 
     @InjectMocks
